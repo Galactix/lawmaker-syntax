@@ -6,51 +6,39 @@
 @colorB1: #2f3131;
 @colorB2: #666666;
 @colorB3: #9D9EA1;
-@colorB4: #ababab; //-
-@colorB5: #ededed;
-@colorB6: #FFFBEF;
+@colorB4: #ededed;
+@colorB5: #FFFBEF;
 
 //color combo
-@colorC1: #f9ba32; //-
-@colorC2: #999966; //-
-@colorC3: #426e86;
-@colorC4: #9DB0B6;
-@colorC5: #f8f1e5;
-@colorC6: #94918B;
+@colorC1: #FCD566;
+@colorC2: #426e86;
+@colorC3: #9DB0B6;
+@colorC4: #f8f1e5;
+@colorC5: #94918B;
 
 //highlight colors
 @colorH1: #56A076;
 @colorH2: #7b2f26;
 @colorH3: #996699;
-@colorH4: #9999CC; //-
-@colorH5: #91c3dc; //-
-@colorH6: #3366CC; //-
-@colorH8: #C68700;
-@colorH7: #FFFF99;
+@colorH4: #3366CC;
+@colorH5: #C58700;
 
-//test colors
-@test1: yellow;
-@test2: red;
-@test3: blue;
-
-
+//specialized
 @reference1: @colorH2; //comments
-@reference2: @colorC6; //constant
+@reference2: @colorC5; //constant
 @reference3: @colorH3; //name-tag
-
 @reference5: @colorH2; //keyword
 @reference6: @colorH1; //text
 @reference7: @colorH3; //variable-name
-@reference8: @test2;
-@reference9: @colorH8; //attribute-name
+@reference8: @colorH4; //class
+@reference9: @colorH5; //attribute-name
 @reference4: @colorH2; //attribute-name-id
-
 
 // General colors
 @syntax-text-color: @colorB1;
 @syntax-cursor-color: @colorB1;
-@syntax-background-color: @colorC5;
-@syntax-selection-color: @colorH7;
+@syntax-background-color: @colorC4;
+@syntax-selection-color: @colorC1;
 
 // Guide colors
 @syntax-wrap-guide-color: @colorB1;
@@ -59,20 +47,20 @@
 
 // For find and replace markers
 @syntax-result-marker-color: @colorB3;
-@syntax-result-marker-color-selected: @colorB6;
+@syntax-result-marker-color-selected: @colorB5;
 
 // Gutter colors
-@syntax-gutter-text-color: @colorC5;
-@syntax-gutter-text-color-selected: @colorB5;
-@syntax-gutter-background-color: @colorC3;
-@syntax-gutter-background-color-selected: @colorC4;
+@syntax-gutter-text-color: @colorC4;
+@syntax-gutter-text-color-selected: @colorB4;
+@syntax-gutter-background-color: @colorC2;
+@syntax-gutter-background-color-selected: @colorC3;
 
 // Focused colors
-@syntax-focused-linenumber-color-text: @colorC3;
-@syntax-focused-linenumber-color-background: @colorB6;
+@syntax-focused-linenumber-color-text: @colorC2;
+@syntax-focused-linenumber-color-background: @colorB5;
 
 // For git diff info. i.e. in the gutter
 @syntax-color-renamed: @colorH3;
-@syntax-color-added: @colorH7;
+@syntax-color-added: @colorC1;
 @syntax-color-modified: @colorH1;
 @syntax-color-removed: @colorH1;
